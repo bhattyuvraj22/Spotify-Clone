@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* some supporting classes */
+.flex{
+    display: flex;
+}
+.justify{
+    justify-content:space-between ;
+}
+.align{
+    align-items: center;
+}
+.direction{
+    flex-direction: column;
+}
+.border_radius{
+    border-radius: 5px;
+}
+.font_size{
+    font-size: medium;
+}
+/* perfectly size the images */
+#logo{
+    margin: 1vw;
+    padding: 2px;
+}
+#home{
+    width: 3vh;
+    height: 3vh;
+    margin-left: 2px;
+    margin-right: 0;
+    padding: 2px;
+}
+#search{
+     width: 3vh;
+    height: 3vh;
+    margin: 2px;
+    padding: 2px;
+}
+#plus{
+     width: 2vh;
+    height: 2vh;
+    margin: 2px;
+    padding: 2px;
+}
+#world{
+     width: 1vw;
+    height: 1vw;
+    margin: 2px;
+    padding: 2px;
+}
+#install{
+      width: 1vw;
+    height: 1vw;
+    margin: 4px;
+    padding: 4px;
+}
+#browse{
+     width: 3vh;
+    height: 3vh;
+}
+#lib_head{
+    justify-content: space-between;
+    margin: 2vw;
+}
+#lib_head div{
+    font-size: 2vh;
+}
+
+
+
+/* overall navbar  */
+.navbar{
+    width: 100vw;
+    height: 7vh;
+    background-color: black;
+    color: white;
+    gap: 15vh;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    align-items: center;    
+}
+/* left part of navbar  */
+.navbar1{
+    gap: 2vh;
+}
+/* search bar at left top  */
+.searchbar{
+    width: 32vw;
+    height: 3vw;
+    border-radius: 40px;
+    background-color: rgb(45, 45, 44);
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1vh;
+}
+/* make placeholder in search bar  */
+#typebox{
+    width: 22vw;
+    height: 4vh;
+    background-color: rgb(45, 45, 44);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: medium;
+    
+}
+/* fit home in circle */
+#parent_home{
+    width: 5vh;
+    height: 5vh;
+    background-color: rgb(35, 34, 34);
+    border-radius: 50%;
+    justify-content: center;
+}
+/* line img at nav bar  */
+.line{
+   background-color: #fff;
+    height: 25px;
+    padding: 1px;
+    margin-left: 2vh;
+}
+/* right part of navbar  */
+.navbar2{
+    gap: 2vh;
+
+}
+.navbar2 a{
+    text-decoration: none;
+}
+.navbar21 a{
+    color: white;
+    font-size: 2vh;
+    font-weight: 700;
+    gap: 1vh;
+}
+.navbar22 a{ 
+    font-size: 1vw;
+    color: white;
+}
+.navbar21{
+    gap: 1vh;
+}
+.navbar22{
+    gap: 2vh;
+}
+/* login button */
+.loginbtn{
+    width: 7vw;
+    height: 5vh;
+    background-color: white;
+    color: black;
+    border-radius: 35px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    justify-content: center;
+    margin-right: 1vw;
+}
+
+/* main container  */
+.container{
+    position: relative;
+    width: 100vw;
+    margin-top: 7vh;
+}
+/* left container  */
+.library{
+    width: 30vw;
+    height: 9vh;
+    background-color: rgb(17, 17, 17);
+    margin-top: 5px;
+    position: fixed;
+    top: 4vw;
+    left: 1vh;
+}
+/* two card in left container  */
+.card1{
+    width: 28vw;
+    height: 16vh;
+    margin: 1vw;
+    background-color: rgb(31, 31, 31);
+}
+
+.card1 h4{
+    margin: 2vh 2vh;
+}
+.card1 p{
+    font-size: 13px;
+    margin: 1vh 2vh;
+}
+.btn1{
+    background-color: #ffff;
+    color: black;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 25px;
+    margin: 3vh 2vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    font-weight: bolder;
+}
+.lib_links{
+    width: 28vw;
+}
+.lib_links a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    margin: 2vw 1vh;
+    padding: 1vh;
+}
+.empty1{
+    width: 26vw;
+    height: 5vh;
+    padding: 2vw;
+    margin: 2vh;
+}
+
+.btn2{
+    width: 7vw;
+    height: 3vh;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 3vw 2vh;
+    font-size: 15px;
+    padding: 3px;
+
+}
+
+/* right container  */
+.songs{
+    width: 68vw;
+    height: 1000vh;
+    margin-left: 1vh;
+    margin-top: 5px;
+    background-color: rgb(17, 17, 17);
+    position: fixed;
+    right: 1vh;
+    top: 4vw;
+    height: 200vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.heading{
+    color: white;
+    margin: 1vw;
+    padding:  1vh 1vw 1vh 1vw;
+    font-weight: bolder;
+}
+.trendingsongs{
+    overflow-x: auto; 
+    width: 68vw;
+    height: 35vh;
+   padding-left: 1vw;
+    
+}
+.card2{
+    width: 13vw;
+    height: 30vh;
+    margin: 1vh 1vh;
+    padding: 1vh;
+    border-radius: 5px;
+    background-color: r(17, 17, 17);
+}
+.img_fit1{
+    width: 12vw ;
+    height: 20vh ;
+    border-radius: 10px;
+   
+}
+.img_fit1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+.popularartists{
+    overflow-x: auto; 
+    width: 68vw;
+    height: 35vh;
+   padding-left: 1vw;
+
+}
+
+.card3{
+    width: 13vw;
+    height: 30vh;
+    margin: 1vh 1vh;
+    padding: 1vh;
+    border-radius: 5px;
+    background-color: r(17, 17, 17);
+}
+
+.img_fit2{
+    width: 12vw ;
+    height: 20vh ;
+    border-radius: 50%;
+    border: 1px solid black;
+   
+
+}
+.img_fit2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.card2 h3{
+    margin: 1vw 1vh;
+    padding: 0;
+}
+.card2 p{
+    margin: 1vw 1vh 0 1vh;
+    padding: 0;
+    font-size: 12px;
+}
+
+.empty2{
+    height: 3vh;
+    background-color: rgb(17, 17, 17);
+}
+
+
+
+
+
+*{
+    font-family: Varela Round;
+}
+/* to convert image from black to white */
+.invert{ 
+  filter: invert(1) brightness(200%);
+
+}
+/* convert theme to black */
+body{
+    background-color: black;
+    color: white;
+     
+}

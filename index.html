@@ -1,12 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web-music-player</title>
 </head>
+<link rel="stylesheet" href="style.css">
+
 <body>
-    <img src="logo.svg" alt="">
-    
+
+    <!-- top container => navbar -->
+
+    <nav class="navbar flex  justify align">
+
+        <div class="navbar1 flex justify align ">
+            <div id="logo" class="invert"><img src="logo.svg" alt=""></div>
+            <div id="parent_home" class="flex align "> <img id="home" class="invert" src="home.svg" alt=""> </div>
+
+            <!-- container => searchbar -->
+
+            <div class="searchbar flex  align ">
+                <div><img id="search" class="invert" src="search.svg" alt=""></div>
+                <div> <input type="text" id="typebox" placeholder="What do you want to play?"> </div>
+                <div class="line"> </div>
+                <div><img id="browse" class="invert" src="browse.svg" alt=""></div>
+
+            </div>
+        </div>
+
+        <div class="navbar2 flex justify align">
+
+            <div class="navbar21 flex justify align">
+                <a href="">Premium</a>
+                <a href="">Support</a>
+                <a href="">Download</a>
+                <div class="line"> </div>
+            </div>
+
+            <div class="navbar22 flex justify align">
+                <div class="flex justify align" id="installbtn">
+                    <img id="install" class="invert" src="install.svg" alt="">
+                    <a href="">Install App</a>
+                </div>
+                <a href="">Sign up</a>
+                <div class="loginbtn flex align ">Log in</div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- left container => Library -->
+
+    <main class="container flex  ">
+        <div class="library flex direction border_radius">
+            <div class="flex  align " id="lib_head">
+                <div>Your Library</div>
+                <img id="plus" src="plus.svg" alt="">
+            </div>
+            <div class="card1 border_radius">
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
+                <div class="btn1 flex">
+                    Create playlist
+                </div>
+
+            </div>
+            <div class="card1 border_radius">
+                <h4>Let's find some podcast to follow</h4>
+                <p>We'll keep you updated on new episodes</p>
+                <div class="btn1 flex">
+                    Browse podcasts
+                </div>
+
+            </div>
+            <div class="empty1"></div>
+            <div class="lib_links ">
+                <a href="">Legal</a>
+                <a href="">Saftey & PrivacyCentre</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Cookies</a>
+                <a href="">About Ads</a>
+                <a href="">Accessibiity</a>
+            </div>
+
+
+            <div class="btn2 flex">
+                <img id="world" class="invert" src="world.svg" alt="">
+                <div>English</div>
+            </div>
+        </div>
+
+        <!-- right container => mainitems -->
+
+
+        <div class="songs border border_radius">
+
+            <h2 class="heading">Trending songs</h2>
+            <div class="trendingsongs flex">
+                <div class="card2">
+                    <div class="img_fit1"><img src="https://i.scdn.co/image/ab67616d00001e023d8df7193d625455be369fc3"
+                            alt="song"></div>
+                    <h3>FA9LA</h3>
+                    <p>Flipperachi</p>
+                </div>
+                <div class="card2">
+                    <div class="img_fit1"><img src="https://i.scdn.co/image/ab67616d00001e026667295968cea8bb92ab034b"
+                            alt="song"></div>
+                    <h3>Gehra Hua</h3>
+                    <p>Shashwat Sachdev,Arijit Singh,Irshad Kmail,..</p>
+                </div>
+                <div class="card2">
+                    <div class="img_fit1"><img src="" alt="song"></div>
+                    <h3>song name</h3>
+                    <p>. </p>
+                </div>
+                <div class="card2">
+                    <div class="img_fit1"><img src="" alt="song"></div>
+                    <h3>song name</h3>
+                    <p>. </p>
+                </div>
+                <div class="card2">
+                    <div class="img_fit1"><img src="" alt="song"></div>
+                    <h3>song name</h3>
+                    <p>. </p>
+                </div>
+                <div class="card2">
+                    <div class="img_fit1"><img src="" alt="song"></div>
+                    <h3>song name</h3>
+                    <p>. </p>
+                </div>
+
+            </div>
+
+            <div class="empty2"></div>
+
+
+            <h2 class="heading">Popular artists </h2>
+            <div class="popularartists flex">
+                <div class="card3">
+                    <div class="img_fit2"><img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+                            alt="photo"></div>
+                    <h3>Pritam</h3>
+                    <p>Artist</p>
+                </div>
+                <div class="card3">
+                    <div class="img_fit2"><img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c"
+                            alt="photo"></div>
+                    <h3>A.R.Rahman</h3>
+                    <p>Artist</p>
+                </div>
+                <div class="card3">
+                    <div class="img_fit2"><img src="" alt="photo"></div>
+                    <h3>artists name</h3>
+                    <p>Artist </p>
+                </div>
+                <div class="card3">
+                    <div class="img_fit2"><img src="" alt="photo"></div>
+                    <h3>artists name</h3>
+                    <p>Artist </p>
+                </div>
+                <div class="card3">
+                    <div class="img_fit2"><img src="" alt="photo"></div>
+                    <h3>artists name</h3>
+                    <p>Artist </p>
+                </div>
+                <div class="card3">
+                    <div class="img_fit2"><img src="" alt="photo"></div>
+                    <h3>artists name</h3>
+                    <p>Artist </p>
+                </div>
+
+            </div>
+
+            <div class="empty2"></div>
+
+
+            <h2 class="heading">Popular albums and singles</h2>
+            <div class="trendingsongs flex">
+                <div class="card2">
+                    <div class="img_fit1"><img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3"
+                            alt="song"></div>
+                    <h3>Aashiqui 2</h3>
+                    <p>Mithoon,Ankit Tiwari,Jeet Ganguli</p>
+                </div>
+                <div class="card2">
+                    <div class="img_fit1"><img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4"
+                            alt="album"></div>
+                    <h3>Yeh Jawani Hai Deewani</h3>
+                    <p>Pritam</p>
+                </div>
+                <div class="card2">
+                    <div class="img_fit1"><img src="" alt="album"></div>
+                    <h3>song name</h3>
+                    <p>. </p>
+                </div>
+                <div class="card2">
+                    <div class="img_fit1"><img src="" alt="album"></div>
+                    <h3>song name</h3>
+                    <p>. </p>
+                </div>
+                <div class="card2">
+                    <div class="img_fit1"><img src="" alt="album"></div>
+                    <h3>song name</h3>
+                    <p>. </p>
+                </div>
+                <div class="card2">
+                    <div class="img_fit1"><img src="" alt="album"></div>
+                    <h3>song name</h3>
+                    <p>. </p>
+                </div>
+
+            </div>
+
+            <div class="empty2"></div>
+
+            <h2 class="heading">Popular radio</h2>
+            <div class="trendingsongs flex">
+                <div class="card2">
+                    <div class="img_fit1"><img src="" alt="radio"></ <p>
+                        </p>
+                    </div>
+                    <div class="card2">
+                        <div class="img_fit1"><img src="" alt="radio"></div>
+                        <p>.</p>
+                    </div>
+                    <div class="card2">
+                        <div class="img_fit1"><img src="" alt="radio"></div>
+                        <p>. </p>
+                    </div>
+                    <div class="card2">
+                        <div class="img_fit1"><img src="" alt="radio"></div>
+                        <p>. </p>
+                    </div>
+                    <div class="card2">
+                        <div class="img_fit1"><img src="" alt="radio"></div>
+                        <p>. </p>
+                    </div>
+                    <div class="card2">
+                        <div class="img_fit1"><img src="" alt="radio"></div>
+                        <p>. </p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
