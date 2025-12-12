@@ -3,36 +3,36 @@
 A modern, responsive Spotify-inspired music player built using HTML, CSS, and JavaScript.
 This project recreates the essential UI and interactions of Spotify, including a trending section, artists section, and a functional audio player.
 
-Features
-Clean Spotify-inspired dark theme
-Interactive play icons
-Add new songs through a form
-Auto-add to Trending section
-Thumbnail + audio file support
-Displays artists using sample song data
-Circular UI similar to Spotify
-Songs rendered dynamically using JavaScript
-Auto-loads new songs added through JS
-Each card includes thumbnail, song name, singer name, and play button
+Features<br>
+Clean Spotify-inspired dark theme <br>
+Interactive play icons<br>
+Add new songs through a form<br>
+Auto-add to Trending section<br>
+Thumbnail + audio file support<br>
+Displays artists using sample song data<br>
+Circular UI similar to Spotify<br>
+Songs rendered dynamically using JavaScript<br>
+Auto-loads new songs added through JS<br>
+Each card includes thumbnail, song name, singer name, and play button<br>
 
 
-Technologies Used
-HTML5 – Structure
-CSS3 – Styling & layout
-JavaScript (DOM Manipulation) – Dynamic cards + audio functionality
-GitHub Pages – Hosting
+Technologies Used<br>
+HTML5 – Structure<br>
+CSS3 – Styling & layout<br>
+JavaScript (DOM Manipulation) – Dynamic cards + audio functionality<br>
+GitHub Pages – Hosting<br>
 
-Live Demo (GitHub Pages)
+Live Demo (GitHub Pages)<br>
 👉 https://bhatt.yuvraj22.github.io/spotify-clone/
 
-Future Improvements
-Volume control
-Real playlists
-Search bar
-Like / favorite tracks
-Mobile animations
-Real backend + user accounts
+Future Improvements<br>
+Volume control<br>
+Real playlists<br>
+Search bar<br>
+Like / favorite tracks<br>
+Mobile animations<br>
+Real backend + user accounts<br>
 
-Yuvraj Bhatt
-Web Developer & Tech Enthusiast
-Feel free to connect and check out my other projects!
+Yuvraj Bhatt<br>
+Web Developer & Tech Enthusiast<br>
+Feel free to connect and check out my other projects!<br>
