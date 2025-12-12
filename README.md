@@ -23,7 +23,7 @@ JavaScript (DOM Manipulation) – Dynamic cards + audio functionality<br>
 GitHub Pages – Hosting<br>
 
 Live Demo (GitHub Pages)<br>
-👉 https://bhatt.yuvraj22.github.io/spotify-clone/
+👉 (https://bhattyuvraj22.github.io/Spotify-Clone/)
 
 Future Improvements<br>
 Volume control<br>
